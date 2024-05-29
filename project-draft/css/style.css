@@ -1,0 +1,170 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+}
+
+h2 {
+    margin: auto;
+    padding-top: 25px;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 14px;
+    margin-bottom: 1em;
+}
+
+.bg-orange {
+    background-color: orange;
+}
+
+.bg-gray {
+    background-color: #cbc1ae;
+}
+.search {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    padding: 14px;
+    background: #f6f6f6;
+    margin: auto;
+}
+
+.search-input {
+    font-size: 16px;
+    color: #333333;
+    margin-left: 14px;
+    width: 100%;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card-container > .card {
+    margin: 10px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #edaf5a;
+    padding: 15px 20px;
+}
+
+.nav-menu {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #905c4a;
+    font-size: 1.5rem;
+    padding: 0 15px;
+    margin: 0 40px;
+    transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+    color: #e6dfdf;
+}
+
+.hamburger-menu {
+    display: block;
+}
+
+.hamburger-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* @media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+    
+    .hamburger-menu {
+        display: block;
+    }
+} */
+
+@media (min-width: 768px) {
+    .nav-menu {
+        display: flex;
+    }
+
+    .hamburger-menu {
+        display: none;
+    }
+}
+
+.player-name {
+    color: white;
+    text-align: center;
+    position: relative;
+    font-size: 2rem;
+}
+
+.quiz-question {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+    .player-name {
+        display: none;
+    }
+
+    .quiz-question {
+        display: none;
+    }
+
+    .container > .card {
+        background-image: url('../img/basketballcourt.jpeg');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+.flex-container {
+    padding: 10px;
+}
+
+.comparison {
+    display: flex;
+    justify-content: space-between;
+}
+
+.comparison p {
+    padding: 0 10px;
+}
+
+.card > img, .section > img {
+    min-width: 350px;
+    min-height: 350px;
+    max-width: 350px;
+    max-height: 350px;
+    object-fit: cover;
+}

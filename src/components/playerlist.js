@@ -4,67 +4,67 @@ import Filter from './Filter';
 import '../index.css'
 export const players = [
     // Atlanta Hawks
-    {id: 1, name: 'Bogdan Bogdanovic', team: 'Atlanta Hawks', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/atlantahawks/bogdanbogdanovic.png'},
-    {id: 2, name: 'Clint Capela', team: 'Atlanta Hawks', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/atlantahawks/clintcapela.png'},
+    {id: 1, name: 'Bogdan Bogdanovic', team: 'Atlanta Hawks', position: 'SF', height: '6\'5"' , weight: "225 lbs", imgSrc: 'img/atlantahawks/bogdanbogdanovic.png'},
+    {id: 2, name: 'Clint Capela', team: 'Atlanta Hawks', position: 'C', height: '6\'10"' , weight: "256 lbs", imgSrc: 'img/atlantahawks/clintcapela.png'},
     {id: 3, name: 'Deandre Hunter', team: 'Atlanta Hawks', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/atlantahawks/deandrehunter.png'},
-    {id: 4, name: 'Dejounte Murray', team: 'Atlanta Hawks', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/atlantahawks/dejountemurray.png'},
-    {id: 5, name: 'Trae Young', team: 'Atlanta Hawks', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/atlantahawks/traeyoung.png'},
+    {id: 4, name: 'Dejounte Murray', team: 'Atlanta Hawks', position: 'SG', height: '6\'5"' , weight: "180 lbs", imgSrc: 'img/atlantahawks/dejountemurray.png'},
+    {id: 5, name: 'Trae Young', team: 'Atlanta Hawks', position: 'PG', height: '6\'1"' , weight: "164 lbs", imgSrc: 'img/atlantahawks/traeyoung.png'},
 
     // Boston Celtics
-    {id: 6, name: 'Derrick White', team: 'Boston Celtics', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/bostonceltics/derrickwhite.png'},
-    {id: 7, name: 'Jaylen Brown', team: 'Boston Celtics', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/bostonceltics/jaylenbrown.png'},
-    {id: 8, name: 'Jayson Tatum', team: 'Boston Celtics', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/bostonceltics/jaysontatum.png'},
-    {id: 9, name: 'Jrue Holiday', team: 'Boston Celtics', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/bostonceltics/jrueholiday.png'},
-    {id: 10, name: 'Kristaps Porzingis', team: 'Boston Celtics', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/bostonceltics/kristapsporzingis.png'},
+    {id: 6, name: 'Derrick White', team: 'Boston Celtics', position: 'PF', height: '6\'4"' , weight: "190 lbs", imgSrc: 'img/bostonceltics/derrickwhite.png'},
+    {id: 7, name: 'Jaylen Brown', team: 'Boston Celtics', position: 'SG', height: '6\'6"' , weight: "223 lbs", imgSrc: 'img/bostonceltics/jaylenbrown.png'},
+    {id: 8, name: 'Jayson Tatum', team: 'Boston Celtics', position: 'SF', height: '6\'8"' , weight: "210 lbs", imgSrc: 'img/bostonceltics/jaysontatum.png'},
+    {id: 9, name: 'Jrue Holiday', team: 'Boston Celtics', position: 'PG', height: '6\'4"' , weight: "205 lbs", imgSrc: 'img/bostonceltics/jrueholiday.png'},
+    {id: 10, name: 'Kristaps Porzingis', team: 'Boston Celtics', position: 'C', height: '7\'2"' , weight: "240 lbs", imgSrc: 'img/bostonceltics/kristapsporzingis.png'},
 
     // Brooklyn Nets
-    {id: 11, name: 'Cam Thomas', team: 'Brooklyn Nets', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/brooklynnets/camthomas.png'},
-    {id: 12, name: 'Dennis Schroder', team: 'Brooklyn Nets', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/brooklynnets/dennisschroder.png'},
-    {id: 13, name: 'Dorian Finney-Smith', team: 'Brooklyn Nets', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/brooklynnets/dorianfinney-smith.png'},
-    {id: 14, name: 'Mikal Bridges', team: 'Brooklyn Nets', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/brooklynnets/mikalbridges.png'},
-    {id: 15, name: 'Nic Claxton', team: 'Brooklyn Nets', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/brooklynnets/nicclaxton.png'},
+    {id: 11, name: 'Cam Thomas', team: 'Brooklyn Nets', position: 'SG', height: '6\'3"' , weight: "210 lbs", imgSrc: 'img/brooklynnets/camthomas.png'},
+    {id: 12, name: 'Dennis Schroder', team: 'Brooklyn Nets', position: 'PG', height: '6\'1"' , weight: "175 lbs", imgSrc: 'img/brooklynnets/dennisschroder.png'},
+    {id: 13, name: 'Dorian Finney-Smith', team: 'Brooklyn Nets', position: 'PF', height: '6\'7"' , weight: "220 lbs", imgSrc: 'img/brooklynnets/dorianfinney-smith.png'},
+    {id: 14, name: 'Mikal Bridges', team: 'Brooklyn Nets', position: 'SF', height: '6\'6"' , weight: "209 lbs", imgSrc: 'img/brooklynnets/mikalbridges.png'},
+    {id: 15, name: 'Nic Claxton', team: 'Brooklyn Nets', position: 'C', height: '6\'11"' , weight: "215 lbs", imgSrc: 'img/brooklynnets/nicclaxton.png'},
 
     // Charlotte Hornets
-    {id: 16, name: 'Brandon Miller', team: 'Charlotte Hornets', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/charlottehornets/brandonmiller.png'},
-    {id: 17, name: 'Cody Martin', team: 'Charlotte Hornets', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/charlottehornets/codymartin.png'},
-    {id: 18, name: 'LaMelo Ball', team: 'Charlotte Hornets', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/charlottehornets/lameloball.png'},
-    {id: 19, name: 'Mark Williams', team: 'Charlotte Hornets', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/charlottehornets/markwilliams.png'},
-    {id: 20, name: 'Miles Bridges', team: 'Charlotte Hornets', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/charlottehornets/milesbridges.png'},
+    {id: 16, name: 'Brandon Miller', team: 'Charlotte Hornets', position: 'SF', height: '6\'7"' , weight: "204 lbs", imgSrc: 'img/charlottehornets/brandonmiller.png'},
+    {id: 17, name: 'Cody Martin', team: 'Charlotte Hornets', position: 'SG', height: '6\'6"' , weight: "205 lbs", imgSrc: 'img/charlottehornets/codymartin.png'},
+    {id: 18, name: 'LaMelo Ball', team: 'Charlotte Hornets', position: 'PG', height: '6\'7"' , weight: "180 lbs", imgSrc: 'img/charlottehornets/lameloball.png'},
+    {id: 19, name: 'Mark Williams', team: 'Charlotte Hornets', position: 'C', height: '7\'0"' , weight: "240 lbs", imgSrc: 'img/charlottehornets/markwilliams.png'},
+    {id: 20, name: 'Miles Bridges', team: 'Charlotte Hornets', position: 'PF', height: '6\'7"' , weight: "225 lbs", imgSrc: 'img/charlottehornets/milesbridges.png'},
 
     // Chicago Bulls
-    {id: 21, name: 'Alex Caruso', team: 'Chicago Bulls', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/chicagobulls/alexcaruso.png'},
-    {id: 22, name: 'Ayo Dosunmu', team: 'Chicago Bulls', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/chicagobulls/ayodosunmu.png'},
-    {id: 23, name: 'Coby White', team: 'Chicago Bulls', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/chicagobulls/cobywhite.png'},
-    {id: 24, name: 'DeMar DeRozan', team: 'Chicago Bulls', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/chicagobulls/demarderozan.png'},
-    {id: 25, name: 'Nikola Vucevic', team: 'Chicago Bulls', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/chicagobulls/nikolavucevic.png'},
+    {id: 21, name: 'Alex Caruso', team: 'Chicago Bulls', position: 'SF', height: '6\'5"' , weight: "186 lbs", imgSrc: 'img/chicagobulls/alexcaruso.png'},
+    {id: 22, name: 'Ayo Dosunmu', team: 'Chicago Bulls', position: 'SG', height: '6\'5"' , weight: "200 lbs", imgSrc: 'img/chicagobulls/ayodosunmu.png'},
+    {id: 23, name: 'Coby White', team: 'Chicago Bulls', position: 'PG', height: '6\'5"' , weight: "195 lbs", imgSrc: 'img/chicagobulls/cobywhite.png'},
+    {id: 24, name: 'DeMar DeRozan', team: 'Chicago Bulls', position: 'PF', height: '6\'6"' , weight: "220 lbs", imgSrc: 'img/chicagobulls/demarderozan.png'},
+    {id: 25, name: 'Nikola Vucevic', team: 'Chicago Bulls', position: 'C', height: '6\'10"' , weight: "260 lbs", imgSrc: 'img/chicagobulls/nikolavucevic.png'},
 
     // Dallas Mavericks
-    {id: 26, name: 'Daniel Gafford', team: 'Dallas Mavericks', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/dallasmavericks/danielgafford.png'},
-    {id: 27, name: 'Derrick Jones Jr.', team: 'Dallas Mavericks', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/dallasmavericks/derrickjonesjr.png'},
-    {id: 28, name: 'Kyrie Irving', team: 'Dallas Mavericks', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/dallasmavericks/kyrieirving.png'},
-    {id: 29, name: 'Luka Doncic', team: 'Dallas Mavericks', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/dallasmavericks/lukadoncic.png'},
-    {id: 30, name: 'P.J. Washington', team: 'Dallas Mavericks', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/dallasmavericks/pjwashington.png'},
+    {id: 26, name: 'Daniel Gafford', team: 'Dallas Mavericks', position: 'C', height: '6\'10"' , weight: "234 lbs", imgSrc: 'img/dallasmavericks/danielgafford.png'},
+    {id: 27, name: 'Derrick Jones Jr.', team: 'Dallas Mavericks', position: 'SF', height: '6\'6"' , weight: "210 lbs", imgSrc: 'img/dallasmavericks/derrickjonesjr.png'},
+    {id: 28, name: 'Kyrie Irving', team: 'Dallas Mavericks', position: 'SG', height: '6\'2"' , weight: "195 lbs", imgSrc: 'img/dallasmavericks/kyrieirving.png'},
+    {id: 29, name: 'Luka Doncic', team: 'Dallas Mavericks', position: 'PG', height: '6\'7"' , weight: "230 lbs", imgSrc: 'img/dallasmavericks/lukadoncic.png'},
+    {id: 30, name: 'P.J. Washington', team: 'Dallas Mavericks', position: 'PF', height: '6\'7"' , weight: "230 lbs", imgSrc: 'img/dallasmavericks/pjwashington.png'},
 
     // Denver Nuggets
-    {id: 31, name: 'Aaron Gordon', team: 'Denver Nuggets', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/denvernuggets/aarongordon.png'},
-    {id: 32, name: 'Jamal Murray', team: 'Denver Nuggets', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/denvernuggets/jamalmurray.png'},
+    {id: 31, name: 'Aaron Gordon', team: 'Denver Nuggets', position: 'PF', height: '6\'8"' , weight: "235 lbs", imgSrc: 'img/denvernuggets/aarongordon.png'},
+    {id: 32, name: 'Jamal Murray', team: 'Denver Nuggets', position: 'PG', height: '6\'4"' , weight: "215 lbs", imgSrc: 'img/denvernuggets/jamalmurray.png'},
     {
         id: 33,
         name: 'Kentavious Caldwell-Pope',
         team: 'Denver Nuggets',
         position: 'SG',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'5"' , weight: "204 lbs",
         imgSrc: 'img/denvernuggets/kentaviouscaldwell-pope.png'
     },
-    {id: 34, name: 'Michael Porter Jr.', team: 'Denver Nuggets', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/denvernuggets/michaelporterjr.png'},
-    {id: 35, name: 'Nikola Jokic', team: 'Denver Nuggets', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/denvernuggets/nikolajokic.png'},
+    {id: 34, name: 'Michael Porter Jr.', team: 'Denver Nuggets', position: 'PF', height: '6\'10"' , weight: "218 lbs", imgSrc: 'img/denvernuggets/michaelporterjr.png'},
+    {id: 35, name: 'Nikola Jokic', team: 'Denver Nuggets', position: 'C', height: '6\'11"' , weight: "284 lbs", imgSrc: 'img/denvernuggets/nikolajokic.png'},
 
     // Detroit Pistons
-    {id: 36, name: 'Ausar Thompson', team: 'Detroit Pistons', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/detroitpistons/ausarthompson.png'},
-    {id: 37, name: 'Cade Cunningham', team: 'Detroit Pistons', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/detroitpistons/cadecunningham.png'},
-    {id: 38, name: 'Jaden Ivey', team: 'Detroit Pistons', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/detroitpistons/jadenivey.png'},
-    {id: 39, name: 'Jalen Duren', team: 'Detroit Pistons', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/detroitpistons/jalenduren.png'},
-    {id: 40, name: 'Simone Fontecchio', team: 'Detroit Pistons', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/detroitpistons/simonefontecchio.png'},
+    {id: 36, name: 'Ausar Thompson', team: 'Detroit Pistons', position: 'SF', height: '6\'6"' , weight: "205 lbs", imgSrc: 'img/detroitpistons/ausarthompson.png'},
+    {id: 37, name: 'Cade Cunningham', team: 'Detroit Pistons', position: 'PG', height: '6\'6"' , weight: "220 lbs", imgSrc: 'img/detroitpistons/cadecunningham.png'},
+    {id: 38, name: 'Jaden Ivey', team: 'Detroit Pistons', position: 'SG', height: '6\'4"' , weight: "195 lbs", imgSrc: 'img/detroitpistons/jadenivey.png'},
+    {id: 39, name: 'Jalen Duren', team: 'Detroit Pistons', position: 'C', height: '6\'10"' , weight: "250 lbs", imgSrc: 'img/detroitpistons/jalenduren.png'},
+    {id: 40, name: 'Simone Fontecchio', team: 'Detroit Pistons', position: 'PF', height: '6\'7"' , weight: "209 lbs", imgSrc: 'img/detroitpistons/simonefontecchio.png'},
 
     // Golden State Warriors
     {
@@ -72,7 +72,7 @@ export const players = [
         name: 'Andrew Wiggins',
         team: 'Golden State Warriors',
         position: 'SF',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'7"' , weight: "197 lbs",
         imgSrc: 'img/goldenstatewarriors/andrewwiggins.png'
     },
     {
@@ -80,47 +80,47 @@ export const players = [
         name: 'Draymond Green',
         team: 'Golden State Warriors',
         position: 'PF',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'6"' , weight: "230 lbs",
         imgSrc: 'img/goldenstatewarriors/draymondgreen.png'
     },
-    {id: 43, name: 'Klay Thompson', team: 'Golden State Warriors', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/goldenstatewarriors/klaythompson.png'},
-    {id: 44, name: 'Steph Curry', team: 'Golden State Warriors', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/goldenstatewarriors/stephcurry.png'},
+    {id: 43, name: 'Klay Thompson', team: 'Golden State Warriors', position: 'SG', height: '6\'6"' , weight: "220 lbs", imgSrc: 'img/goldenstatewarriors/klaythompson.png'},
+    {id: 44, name: 'Steph Curry', team: 'Golden State Warriors', position: 'PG', height: '6\'2"' , weight: "185 lbs", imgSrc: 'img/goldenstatewarriors/stephcurry.png'},
     {
         id: 45,
         name: 'Trayce Jackson Davis',
         team: 'Golden State Warriors',
         position: 'C',
-        height: '6\'8"' , weight: "225 lbs",
+        height: '6\'9"' , weight: "245 lbs",
         imgSrc: 'img/goldenstatewarriors/traycejacksondavis.png'
     },
 
     // Houston Rockets
-    {id: 46, name: 'Alperen Sengun', team: 'Houston Rockets', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/houstonrockets/alperensengun.png'},
-    {id: 47, name: 'Dillon Brooks', team: 'Houston Rockets', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/houstonrockets/dillonbrooks.png'},
-    {id: 48, name: 'Fred VanVleet', team: 'Houston Rockets', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/houstonrockets/fredvanvleet.png'},
-    {id: 49, name: 'Jabari Smith Jr.', team: 'Houston Rockets', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/houstonrockets/jabarismithjr.png'},
-    {id: 50, name: 'Jalen Green', team: 'Houston Rockets', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/houstonrockets/jalengreen.png'},
+    {id: 46, name: 'Alperen Sengun', team: 'Houston Rockets', position: 'C', height: '6\'11"' , weight: "243 lbs", imgSrc: 'img/houstonrockets/alperensengun.png'},
+    {id: 47, name: 'Dillon Brooks', team: 'Houston Rockets', position: 'PF', height: '6\'6"' , weight: "225 lbs", imgSrc: 'img/houstonrockets/dillonbrooks.png'},
+    {id: 48, name: 'Fred VanVleet', team: 'Houston Rockets', position: 'PG', height: '6\'0"' , weight: "197 lbs", imgSrc: 'img/houstonrockets/fredvanvleet.png'},
+    {id: 49, name: 'Jabari Smith Jr.', team: 'Houston Rockets', position: 'PF', height: '6\'11"' , weight: "220 lbs", imgSrc: 'img/houstonrockets/jabarismithjr.png'},
+    {id: 50, name: 'Jalen Green', team: 'Houston Rockets', position: 'SG', height: '6\'4"' , weight: "186 lbs", imgSrc: 'img/houstonrockets/jalengreen.png'},
 
     // Indiana Pacers
-    {id: 51, name: 'Aaron Nesmith', team: 'Indiana Pacers', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/indianapacers/aaronnesmith.png'},
-    {id: 52, name: 'Andrew Nembhard', team: 'Indiana Pacers', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/indianapacers/andrewnembhard.png'},
-    {id: 53, name: 'Myles Turner', team: 'Indiana Pacers', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/indianapacers/mylesturner.png'},
-    {id: 54, name: 'Pascal Siakam', team: 'Indiana Pacers', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/indianapacers/pascalsiakam.png'},
-    {id: 55, name: 'Tyrese Haliburton', team: 'Indiana Pacers', position: 'PG', height: '6\'8"' , weight: "225 lbs",imgSrc: 'img/indianapacers/tyresehaliburton.png'},
+    {id: 51, name: 'Aaron Nesmith', team: 'Indiana Pacers', position: 'SF', height: '6\'6"' , weight: "215 lbs", imgSrc: 'img/indianapacers/aaronnesmith.png'},
+    {id: 52, name: 'Andrew Nembhard', team: 'Indiana Pacers', position: 'SG', height: '6\'4"' , weight: "191 lbs", imgSrc: 'img/indianapacers/andrewnembhard.png'},
+    {id: 53, name: 'Myles Turner', team: 'Indiana Pacers', position: 'C', height: '6\'11"' , weight: "250 lbs", imgSrc: 'img/indianapacers/mylesturner.png'},
+    {id: 54, name: 'Pascal Siakam', team: 'Indiana Pacers', position: 'PF', height: '6\'8"' , weight: "245 lbs", imgSrc: 'img/indianapacers/pascalsiakam.png'},
+    {id: 55, name: 'Tyrese Haliburton', team: 'Indiana Pacers', position: 'PG', height: '6\'5"' , weight: "185 lbs",imgSrc: 'img/indianapacers/tyresehaliburton.png'},
 
     // LA Clippers
-    {id: 56, name: 'Ivica Zubac', team: 'LA Clippers', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/laclippers/ivicazubac.png'},
-    {id: 57, name: 'James Harden', team: 'LA Clippers', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/laclippers/jamesharden.png'},
-    {id: 58, name: 'Kawhi Leonard', team: 'LA Clippers', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/laclippers/kawhileonard.png'},
-    {id: 59, name: 'Paul George', team: 'LA Clippers', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/laclippers/paulgeorge.png'},
-    {id: 60, name: 'Terrance Mann', team: 'LA Clippers', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/laclippers/terancemann.png'},
+    {id: 56, name: 'Ivica Zubac', team: 'LA Clippers', position: 'C', height: '7\'0"' , weight: "240 lbs", imgSrc: 'img/laclippers/ivicazubac.png'},
+    {id: 57, name: 'James Harden', team: 'LA Clippers', position: 'PG', height: '6\'5"' , weight: "220 lbs", imgSrc: 'img/laclippers/jamesharden.png'},
+    {id: 58, name: 'Kawhi Leonard', team: 'LA Clippers', position: 'PF', height: '6\'7"' , weight: "230 lbs", imgSrc: 'img/laclippers/kawhileonard.png'},
+    {id: 59, name: 'Paul George', team: 'LA Clippers', position: 'SF', height: '6\'8"' , weight: "220 lbs", imgSrc: 'img/laclippers/paulgeorge.png'},
+    {id: 60, name: 'Terrance Mann', team: 'LA Clippers', position: 'SG', height: '6\'5"' , weight: "215 lbs", imgSrc: 'img/laclippers/terancemann.png'},
 
     // Los Angeles Lakers
-    {id: 61, name: 'Anthony Davis', team: 'LA Lakers', position: 'C', height: '6\'8"' , weight: "225 lbs", imgSrc: 'img/losangeleslakers/anthonydavis.png'},
-    {id: 62, name: 'Austin Reaves', team: 'LA Lakers', position: 'SG', height: '6\'8"' , weight: "225 lbs", imgSrcimgSrc: 'img/losangeleslakers/austinreaves.png'},
-    {id: 1062, name: 'D\'Angelo Russell', team: 'LA Lakers', position: 'PG', height: '6\'8"' , weight: "225 lbs", imgSrcimgSrc: 'img/losangeleslakers/dlorussel.png'},
-    {id: 64, name: 'LeBron James', team: 'LA Lakers', position: 'SF', height: '6\'8"' , weight: "225 lbs", imgSrcimgSrc: 'img/losangeleslakers/lebronjames.png'},
-    {id: 65, name: 'Rui Hachimura', team: 'LA Lakers', position: 'PF', height: '6\'8"' , weight: "225 lbs", imgSrcimgSrc: 'img/losangeleslakers/ruihachimura.png'},
+    {id: 61, name: 'Anthony Davis', team: 'LA Lakers', position: 'C', height: '6\'10"' , weight: "253 lbs", imgSrc: 'img/losangeleslakers/anthonydavis.png'},
+    {id: 62, name: 'Austin Reaves', team: 'LA Lakers', position: 'SG', height: '6\'5"' , weight: "197 lbs", imgSrcimgSrc: 'img/losangeleslakers/austinreaves.png'},
+    {id: 1062, name: 'D\'Angelo Russell', team: 'LA Lakers', position: 'PG', height: '6\'3"' , weight: "193 lbs", imgSrcimgSrc: 'img/losangeleslakers/dlorussel.png'},
+    {id: 64, name: 'LeBron James', team: 'LA Lakers', position: 'SF', height: '6\'9"' , weight: "250 lbs", imgSrcimgSrc: 'img/losangeleslakers/lebronjames.png'},
+    {id: 65, name: 'Rui Hachimura', team: 'LA Lakers', position: 'PF', height: '6\'8"' , weight: "230 lbs", imgSrcimgSrc: 'img/losangeleslakers/ruihachimura.png'},
 
     // Memphis Grizzlies
     {id: 66, name: 'Desmond Bane', team: 'Memphis Grizzlies', position: 'SF', height: '6\'5"' , weight: "215 lbs", imgSrcimgSrc: 'img/memphisgrizzlies/desmondbane.png'},

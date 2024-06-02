@@ -516,47 +516,7 @@ const PlayerStatsPage = () => {
       PF: "127",
       PTS: "964",
       PlayerAdditional: "bealbr01",
-<<<<<<< HEAD
-      imgSrc: "public/img/phoenixsuns/bradleybeal.png"
-    },
-
-    {
-      Rk: "42",
-      Player: "Patrick Beverley",
-      Pos: "PG",
-      Age: "35",
-      Tm: "TOT",
-      G: "73",
-      GS: "13",
-      MP: "1462",
-      FG: "158",
-      FGA: "379",
-      FGPercent: "0.417",
-      X3P: "61",
-      X3PA: "181",
-      X3PPercent: "0.337",
-      X2P: "97",
-      X2PA: "198",
-      X2PPercent: "0.49",
-      eFGPercent: "0.497",
-      FT: "74",
-      FTA: "90",
-      FTPercent: "0.822",
-      ORB: "49",
-      DRB: "190",
-      TRB: "239",
-      AST: "212",
-      STL: "43",
-      BLK: "31",
-      TOV: "65",
-      PF: "128",
-      PTS: "451",
-      PlayerAdditional: "beverpa01",
-      imgSrc: "img/milwaukeebucks/patrickbeverley.png"
-
-=======
       imgSrc: "img/phoenixsuns/bradleybeal.png"
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     },
 
     {
@@ -593,10 +553,6 @@ const PlayerStatsPage = () => {
       PlayerAdditional: "bogdabo01",
       imgSrc: "img/atlantahawks/bogdanbogdanovic.png"
     },
-<<<<<<< HEAD
-
-=======
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "54",
       Player: "Devin Booker",
@@ -628,15 +584,9 @@ const PlayerStatsPage = () => {
       TOV: "178",
       PF: "206",
       PTS: "1841",
-<<<<<<< HEAD
-      PlayerAdditional: "bookede01"
-    },
-
-=======
       PlayerAdditional: "bookede01",
       imgSrc: "img/phoenixsuns/devinbooker.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "59",
       Player: "Malaki Branham",
@@ -668,15 +618,9 @@ const PlayerStatsPage = () => {
       TOV: "91",
       PF: "94",
       PTS: "690",
-<<<<<<< HEAD
-      PlayerAdditional: "branhma01"
-    },
-
-=======
       PlayerAdditional: "branhma01",
       imgSrc: "img/sanantoniospurs/malakibranham.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "61",
       Player: "Mikal Bridges",
@@ -742,15 +686,9 @@ const PlayerStatsPage = () => {
       TOV: "138",
       PF: "118",
       PTS: "1449",
-<<<<<<< HEAD
-      PlayerAdditional: "bridgmi02"
-    },
-
-=======
       PlayerAdditional: "bridgmi02",
       imgSrc: "img/charlottehornets/milesbridges.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "67",
       Player: "Dillon Brooks",
@@ -782,15 +720,9 @@ const PlayerStatsPage = () => {
       TOV: "88",
       PF: "241",
       PTS: "915",
-<<<<<<< HEAD
-      PlayerAdditional: "brookdi01"
-    },
-
-=======
       PlayerAdditional: "brookdi01",
       imgSrc: "img/houstonrockets/dillonbrooks.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "71",
       Player: "Jaylen Brown",
@@ -892,15 +824,9 @@ const PlayerStatsPage = () => {
       TOV: "102",
       PF: "68",
       PTS: "1246",
-<<<<<<< HEAD
-      PlayerAdditional: "butleji01"
-    },
-
-=======
       PlayerAdditional: "butleji01",
       imgSrc: "img/miamiheat/jimmybutler.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "84",
       Player: "Kentavious Caldwell-Pope",
@@ -932,15 +858,9 @@ const PlayerStatsPage = () => {
       TOV: "75",
       PF: "151",
       PTS: "766",
-<<<<<<< HEAD
-      PlayerAdditional: "caldwke01"
-    },
-
-=======
       PlayerAdditional: "caldwke01",
       imgSrc: "img/denvernuggets/kentaviouscaldwell-pope.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "86",
       Player: "Clint Capela",
@@ -972,15 +892,9 @@ const PlayerStatsPage = () => {
       TOV: "74",
       PF: "164",
       PTS: "836",
-<<<<<<< HEAD
-      PlayerAdditional: "capelca01"
-    },
-  
-=======
       PlayerAdditional: "capelca01",
       imgSrc: "img/atlantahawks/clintcapela.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "88",
       Player: "Wendell Carter Jr.",
@@ -1012,15 +926,9 @@ const PlayerStatsPage = () => {
       TOV: "68",
       PF: "121",
       PTS: "603",
-<<<<<<< HEAD
-      PlayerAdditional: "cartewe01"
-    },
-
-=======
       PlayerAdditional: "cartewe01",
       imgSrc: "img/orlandomagic/wendellcarterjr.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "90",
       Player: "Alex Caruso",
@@ -1052,15 +960,9 @@ const PlayerStatsPage = () => {
       TOV: "102",
       PF: "181",
       PTS: "715",
-<<<<<<< HEAD
-      PlayerAdditional: "carusal01"
-    },
-
-=======
       PlayerAdditional: "carusal01",
       imgSrc: "img/chicagobulls/alexcaruso.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "98",
       Player: "Jordan Clarkson",
@@ -1126,15 +1028,9 @@ const PlayerStatsPage = () => {
       TOV: "93",
       PF: "175",
       PTS: "841",
-<<<<<<< HEAD
-      PlayerAdditional: "claxtni01"
-    },
-
-=======
       PlayerAdditional: "claxtni01",
       imgSrc: "img/brooklynnets/nicclaxton.png"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "104",
       Player: "Mike Conley",
@@ -1166,12 +1062,6 @@ const PlayerStatsPage = () => {
       TOV: "102",
       PF: "128",
       PTS: "869",
-<<<<<<< HEAD
-      PlayerAdditional: "conlemi01"
-    },
-
-
-=======
       PlayerAdditional: "conlemi01",
       imgSrc: "img/minnesotatimberwolves/mikeconley.png"
     },
@@ -1208,7 +1098,6 @@ const PlayerStatsPage = () => {
       PTS: "0",
       PlayerAdditional: "crutcja01"
     },
->>>>>>> a96cd56ee7180c0cfe35b35ed0474841bd055f39
     {
       Rk: "112",
       Player: "Cade Cunningham",

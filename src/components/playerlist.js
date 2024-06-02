@@ -241,7 +241,7 @@ export const players = [
         team: 'Philadelphia 76ers',
         position: 'SG',
         height: '6\'3"' , weight: "200 lbs",
-        imgSrc: 'img/philadelphia76ers/d\'anthonymelton.png'
+        imgSrc: 'img/philadelphia76ers/anthonymelton.png'
     },
     {id: 107, name: 'Joel Embiid', team: 'Philadelphia 76ers', position: 'C', height: '7\'0"' , weight: "280 lbs", imgSrc: 'img/philadelphia76ers/joelembiid.png'},
     {id: 108, name: 'Kelly Oubre Jr.', team: 'Philadelphia 76ers', position: 'SF', height: '6\'7"' , weight: "203 lbs", imgSrc: 'img/philadelphia76ers/kellyoubrejr.png'},

@@ -1,5 +1,4 @@
 import React from 'react';
-import { players } from './playerlist.js';
 import { useState, useRef } from 'react';
 import { quizQuestions } from './QuizQuestions.js';
 import 'bootstrap/dist/css/bootstrap.min.css';

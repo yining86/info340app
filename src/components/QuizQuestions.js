@@ -1,4 +1,3 @@
-import { random } from "lodash";
 import { players } from "./playerlist"
 
 export function generatePlayers(playerList) {
@@ -26,11 +25,11 @@ export function generatePlayers(playerList) {
 
         let currIndex = answerPool.length;
 
-        while (currIndex != 0) {
+        while (currIndex !== 0) {
             let randomIndex = Math.floor(Math.random() * currIndex);
             currIndex--;
 
-            [answerPool[currIndex], answerPool[currIndex]] = [
+            [answerPool[currIndex], answerPool[randomIndex]] = [
                 answerPool[randomIndex], answerPool[currIndex]];
         }
 

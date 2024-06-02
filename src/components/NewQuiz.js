@@ -1,5 +1,4 @@
 import React from 'react';
-import { players } from './playerlist.js';
 import { useState, useRef } from 'react';
 import { quizQuestions } from './QuizQuestions.js';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -62,7 +61,7 @@ export function NewQuiz(props) {
     // I don't know how to connect this to the quizQuestions to roll a new set of players upon reset
     const resetGame = () => {
         setIndex(0);
-        setQuestion(quizQuestions[index]);
+        setQuestion(quizQuestions[0]);
         setScore(0);
         setLock(false);
         setFinal(false);

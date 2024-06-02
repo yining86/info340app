@@ -29,7 +29,7 @@ export function generatePlayers(playerList) {
             let randomIndex = Math.floor(Math.random() * currIndex);
             currIndex--;
 
-            [answerPool[currIndex], answerPool[currIndex]] = [
+            [answerPool[currIndex], answerPool[randomIndex]] = [
                 answerPool[randomIndex], answerPool[currIndex]];
         }
 

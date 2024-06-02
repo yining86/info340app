@@ -1,53 +1,59 @@
-import {players} from "./playerlist"
+import { random } from "lodash";
+import { players } from "./playerlist"
 
-// grab 5 random players from playerlist
-let randomPlayers = [];
-for (let i = 0; i < 5; i++) {
-    randomPlayers.push(players[Math.floor(Math.random() * players.length)]);
-}
-
-// make an array of unique teams
-const uniqueTeams = new Set();
-players.forEach(player => {
-    const team = player['team'];
-    uniqueTeams.add(team);
-})
-const uniqueTeamsArray = Array.from(uniqueTeams);
-
-// create a random answer pool for each player
-function createAnswerPool(playerObj, teamArray) {
-    let answerPool = [];
-    answerPool.push(playerObj.team);
-    for (let i = 0; i < 3; i++) {
-        answerPool.push(teamArray[Math.floor(Math.random() * teamArray.length)]);
+export function generatePlayers(playerList) {
+    // grab 5 random players from playerlist
+    let randomPlayers = [];
+    for (let i = 0; i < 5; i++) {
+        randomPlayers.push(players[Math.floor(Math.random() * players.length)]);
     }
 
-    let currIndex = answerPool.length;
+    // make an array of unique teams
+    const uniqueTeams = new Set();
+    players.forEach(player => {
+        const team = player['team'];
+        uniqueTeams.add(team);
+    })
+    const uniqueTeamsArray = Array.from(uniqueTeams);
 
-    while (currIndex != 0) {
-        let randomIndex = Math.floor(Math.random() * currIndex);
-        currIndex--;
+    // create a random answer pool for each player
+    function createAnswerPool(playerObj, teamArray) {
+        let answerPool = [];
+        answerPool.push(playerObj.team);
+        for (let i = 0; i < 3; i++) {
+            answerPool.push(teamArray[Math.floor(Math.random() * teamArray.length)]);
+        }
 
-        [answerPool[currIndex], answerPool[currIndex]] = [
-            answerPool[randomIndex], answerPool[currIndex]];
+        let currIndex = answerPool.length;
+
+        while (currIndex != 0) {
+            let randomIndex = Math.floor(Math.random() * currIndex);
+            currIndex--;
+
+            [answerPool[currIndex], answerPool[currIndex]] = [
+                answerPool[randomIndex], answerPool[currIndex]];
+        }
+
+        return answerPool;
     }
 
-    return answerPool;
+    const p1AnswerPool = createAnswerPool(randomPlayers[0], uniqueTeamsArray);
+    const p2AnswerPool = createAnswerPool(randomPlayers[1], uniqueTeamsArray);
+    const p3AnswerPool = createAnswerPool(randomPlayers[2], uniqueTeamsArray);
+    const p4AnswerPool = createAnswerPool(randomPlayers[3], uniqueTeamsArray);
+    const p5AnswerPool = createAnswerPool(randomPlayers[4], uniqueTeamsArray);
+
+
+    Object.assign(randomPlayers[0], { answerPool: p1AnswerPool });
+    Object.assign(randomPlayers[1], { answerPool: p2AnswerPool });
+    Object.assign(randomPlayers[2], { answerPool: p3AnswerPool });
+    Object.assign(randomPlayers[3], { answerPool: p4AnswerPool });
+    Object.assign(randomPlayers[4], { answerPool: p5AnswerPool });
+
+    return randomPlayers;
 }
 
-const p1AnswerPool = createAnswerPool(randomPlayers[0], uniqueTeamsArray);
-const p2AnswerPool = createAnswerPool(randomPlayers[1], uniqueTeamsArray);
-const p3AnswerPool = createAnswerPool(randomPlayers[2], uniqueTeamsArray);
-const p4AnswerPool = createAnswerPool(randomPlayers[3], uniqueTeamsArray);
-const p5AnswerPool = createAnswerPool(randomPlayers[4], uniqueTeamsArray);
-
-
-Object.assign(randomPlayers[0], { answerPool: p1AnswerPool });
-Object.assign(randomPlayers[1], { answerPool: p2AnswerPool });
-Object.assign(randomPlayers[2], { answerPool: p3AnswerPool });
-Object.assign(randomPlayers[3], { answerPool: p4AnswerPool });
-Object.assign(randomPlayers[4], { answerPool: p5AnswerPool });
-
+const randomPlayers = generatePlayers({players});
 
 export const quizQuestions = [
     {

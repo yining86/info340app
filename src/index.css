@@ -201,6 +201,10 @@ h2 {
     .hamburger-menu {
         display: none;
     }
+
+    .quiz-container {
+        min-width: 640px
+    }
 }
 
 .player-name {
@@ -214,22 +218,6 @@ h2 {
     color: white;
     text-align: center;
     font-size: 1rem;
-}
-
-@media (min-width: 992px) {
-    .player-name {
-        display: none;
-    }
-
-    .quiz-question {
-        display: none;
-    }
-
-    .container > .card {
-        background-image: url('../public/img/basketballcourt.jpeg');
-        background-size: cover;
-        background-position: center;
-    }
 }
 
 .flex-container {
@@ -408,7 +396,7 @@ h2 {
 
 .quiz-container {
     background: white;
-    width: 640px;
+    width: 440px;
     margin: auto;
     margin-top: 75px;
     margin-bottom: 75px;

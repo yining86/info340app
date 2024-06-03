@@ -1096,7 +1096,8 @@ const PlayerStatsPage = () => {
       TOV: "0",
       PF: "0",
       PTS: "0",
-      PlayerAdditional: "crutcja01"
+      PlayerAdditional: "crutcja01",
+      imgSrc: "img/neworleanspelicans/jalencrutcher.png"
     },
     {
       Rk: "112",
@@ -1129,7 +1130,8 @@ const PlayerStatsPage = () => {
       TOV: "212",
       PF: "153",
       PTS: "1405",
-      PlayerAdditional: "cunnica01"
+      PlayerAdditional: "cunnica01",
+      imgSrc: "img/detroitpistons/cadecunningham.png"
     },
 
     {
@@ -1163,7 +1165,8 @@ const PlayerStatsPage = () => {
       TOV: "210",
       PF: "117",
       PTS: "1956",
-      PlayerAdditional: "curryst01"
+      PlayerAdditional: "curryst01",
+      imgSrc: "img/goldenstatewarriors/stephcurry.png"
     },
 
     {
@@ -1197,7 +1200,8 @@ const PlayerStatsPage = () => {
       TOV: "159",
       PF: "177",
       PTS: "1876",
-      PlayerAdditional: "davisan02"
+      PlayerAdditional: "davisan02",
+      imgSrc: "img/losangeleslakers/anthonydavis.png"
     },
 
 
@@ -1232,7 +1236,8 @@ const PlayerStatsPage = () => {
       TOV: "135",
       PF: "161",
       PTS: "1897",
-      PlayerAdditional: "derozde01"
+      PlayerAdditional: "derozde01",
+      imgSrc: "img/chicagobulls/demarderozan.png"
     },
 
 
@@ -1267,7 +1272,8 @@ const PlayerStatsPage = () => {
       TOV: "282",
       PF: "149",
       PTS: "2370",
-      PlayerAdditional: "doncilu01"
+      PlayerAdditional: "doncilu01",
+      imgSrc: "img/dallasmavericks/lukadoncic.png"
     },
     {
       Rk: "129",
@@ -1300,7 +1306,8 @@ const PlayerStatsPage = () => {
       TOV: "74",
       PF: "228",
       PTS: "860",
-      PlayerAdditional: "dortlu01"
+      PlayerAdditional: "dortlu01",
+      imgSrc: "img/oklahomacitythunder/luguentzdort.png"
     },
     {
       Rk: "130",
@@ -1333,7 +1340,8 @@ const PlayerStatsPage = () => {
       TOV: "103",
       PF: "166",
       PTS: "924",
-      PlayerAdditional: "dosunay01"
+      PlayerAdditional: "dosunay01",
+      imgSrc: "img/chicagobulls/ayodosunmu.png"
     },
 
 
@@ -1368,7 +1376,8 @@ const PlayerStatsPage = () => {
       TOV: "244",
       PF: "133",
       PTS: "2032",
-      PlayerAdditional: "duranke01"
+      PlayerAdditional: "duranke01",
+      imgSrc: "img/phoenixsuns/kevindurant.png"
     },
     {
       Rk: "138",
@@ -1401,7 +1410,8 @@ const PlayerStatsPage = () => {
       TOV: "129",
       PF: "192",
       PTS: "841",
-      PlayerAdditional: "durenja01"
+      PlayerAdditional: "durenja01",
+      imgSrc: "img/detroitpistons/jalenduren.png"
     },
  
     {
@@ -1435,7 +1445,8 @@ const PlayerStatsPage = () => {
       TOV: "241",
       PF: "141",
       PTS: "2049",
-      PlayerAdditional: "edwaran01"
+      PlayerAdditional: "edwaran01",
+      imgSrc: "img/minnesotatimberwolves/anthonyedwards.png"
     },
 
 
@@ -1470,7 +1481,8 @@ const PlayerStatsPage = () => {
       TOV: "150",
       PF: "112",
       PTS: "1353",
-      PlayerAdditional: "embiijo01"
+      PlayerAdditional: "embiijo01",
+      imgSrc: "img/philadelphia76ers/joelembiid.png"
     },
 
     {
@@ -1504,7 +1516,8 @@ const PlayerStatsPage = () => {
       TOV: "59",
       PF: "150",
       PTS: "580",
-      PlayerAdditional: "finnedo01"
+      PlayerAdditional: "finnedo01",
+      imgSrc: "img/brooklynnets/dorianfinney-smith.png"
     },
 
     {
@@ -1538,7 +1551,8 @@ const PlayerStatsPage = () => {
       TOV: "194",
       PF: "193",
       PTS: "1966",
-      PlayerAdditional: "foxde01"
+      PlayerAdditional: "foxde01",
+      imgSrc: "img/sacramentokings/deaaronfox.png"
     },
 
     {
@@ -1572,7 +1586,8 @@ const PlayerStatsPage = () => {
       TOV: "50",
       PF: "65",
       PTS: "335",
-      PlayerAdditional: "fultzma01"
+      PlayerAdditional: "fultzma01",
+      imgSrc: "img/orlandomagic/markellefultz.png"
     },
 
 
@@ -1607,7 +1622,8 @@ const PlayerStatsPage = () => {
       TOV: "74",
       PF: "227",
       PTS: "814",
-      PlayerAdditional: "gaffoda01"
+      PlayerAdditional: "gaffoda01",
+      imgSrc: "img/dallasmavericks/danielgafford.png"
     },
 
     {
@@ -1641,7 +1657,8 @@ const PlayerStatsPage = () => {
       TOV: "153",
       PF: "202",
       PTS: "1671",
-      PlayerAdditional: "georgpa01"
+      PlayerAdditional: "georgpa01",
+      imgSrc: "img/laclippers/paulgeorge.png"
     },
 
     {
@@ -1675,7 +1692,8 @@ const PlayerStatsPage = () => {
       TOV: "168",
       PF: "111",
       PTS: "986",
-      PlayerAdditional: "giddejo01"
+      PlayerAdditional: "giddejo01",
+      imgSrc: "img/oklahomacitythunder/joshgiddey.png"
     },
 
     {
@@ -1709,7 +1727,8 @@ const PlayerStatsPage = () => {
       TOV: "162",
       PF: "184",
       PTS: "2254",
-      PlayerAdditional: "gilgesh01"
+      PlayerAdditional: "gilgesh01",
+      imgSrc: "img/oklahomacitythunder/shaigilgeous-alexander.png"
     },
 
 
@@ -1744,7 +1763,8 @@ const PlayerStatsPage = () => {
       TOV: "118",
       PF: "238",
       PTS: "1061",
-      PlayerAdditional: "goberru01"
+      PlayerAdditional: "goberru01",
+      imgSrc: "img/minnesotatimberwolves/rudygobert.png"
     },
 
     {
@@ -1778,7 +1798,8 @@ const PlayerStatsPage = () => {
       TOV: "105",
       PF: "142",
       PTS: "1013",
-      PlayerAdditional: "gordoaa01"
+      PlayerAdditional: "gordoaa01",
+      imgSrc: "img/denvernuggets/aarongordon.png"
     },
 
     {
@@ -1812,7 +1833,8 @@ const PlayerStatsPage = () => {
       TOV: "116",
       PF: "117",
       PTS: "1132",
-      PlayerAdditional: "grantje01"
+      PlayerAdditional: "grantje01",
+      imgSrc: "img/portlandtrailblazers/jeramigrant.png"
     },
 
     {
@@ -1846,7 +1868,8 @@ const PlayerStatsPage = () => {
       TOV: "135",
       PF: "166",
       PTS: "475",
-      PlayerAdditional: "greendr01"
+      PlayerAdditional: "greendr01",
+      imgSrc: "img/goldenstatewarriors/draymondgreen.png"
     },
     {
       Rk: "186",
@@ -1879,7 +1902,8 @@ const PlayerStatsPage = () => {
       TOV: "191",
       PF: "115",
       PTS: "1610",
-      PlayerAdditional: "greenja05"
+      PlayerAdditional: "greenja05",
+      imgSrc: "img/houstonrockets/jalengreen.png"
     },
 
     {
@@ -1913,7 +1937,8 @@ const PlayerStatsPage = () => {
       TOV: "46",
       PF: "101",
       PTS: "923",
-      PlayerAdditional: "hachiru01"
+      PlayerAdditional: "hachiru01",
+      imgSrc: "img/losangeleslakers/ruihachimura.png"
     },
 
     {
@@ -1947,7 +1972,8 @@ const PlayerStatsPage = () => {
       TOV: "159",
       PF: "75",
       PTS: "1389",
-      PlayerAdditional: "halibty01"
+      PlayerAdditional: "halibty01",
+      imgSrc: "img/indianapacers/tyresehaliburton.png"
     },
 
     {
@@ -1981,7 +2007,8 @@ const PlayerStatsPage = () => {
       TOV: "185",
       PF: "127",
       PTS: "1192",
-      PlayerAdditional: "hardeja01"
+      PlayerAdditional: "hardeja01",
+      imgSrc: "img/laclippers/jamesharden.png"
     },
 
     {
@@ -2015,7 +2042,8 @@ const PlayerStatsPage = () => {
       TOV: "93",
       PF: "115",
       PTS: "1204",
-      PlayerAdditional: "harrito02"
+      PlayerAdditional: "harrito02",
+      imgSrc: "img/philadelphia76ers/tobiasharris.png"
     },
 
     {
@@ -2049,7 +2077,8 @@ const PlayerStatsPage = () => {
       TOV: "212",
       PF: "195",
       PTS: "868",
-      PlayerAdditional: "hendesc01"
+      PlayerAdditional: "hendesc01",
+      imgSrc: "img/portlandtrailblazers/scoothenderson.png"
     },
 
     {
@@ -2083,7 +2112,8 @@ const PlayerStatsPage = () => {
       TOV: "93",
       PF: "63",
       PTS: "875",
-      PlayerAdditional: "herroty01"
+      PlayerAdditional: "herroty01",
+      imgSrc: "img/miamiheat/tylerherro.png"
     },
 
     {
@@ -2117,7 +2147,8 @@ const PlayerStatsPage = () => {
       TOV: "124",
       PF: "108",
       PTS: "860",
-      PlayerAdditional: "holidjr01"
+      PlayerAdditional: "holidjr01",
+      imgSrc: "img/bostonceltics/jrueholiday.png"
     },
 
     {
@@ -2151,7 +2182,8 @@ const PlayerStatsPage = () => {
       TOV: "131",
       PF: "197",
       PTS: "1357",
-      PlayerAdditional: "holmgch01"
+      PlayerAdditional: "holmgch01",
+      imgSrc: "img/oklahomacitythunder/chetholmgren.png"
     },
  
     {
@@ -2185,7 +2217,8 @@ const PlayerStatsPage = () => {
       TOV: "65",
       PF: "94",
       PTS: "516",
-      PlayerAdditional: "hortota01"
+      PlayerAdditional: "hortota01",
+      imgSrc: "img/utahjazz/talenhorton-tucker.png"
     },
 
 
@@ -2220,7 +2253,8 @@ const PlayerStatsPage = () => {
       TOV: "83",
       PF: "146",
       PTS: "891",
-      PlayerAdditional: "huntede01"
+      PlayerAdditional: "huntede01",
+      imgSrc: "img/atlantahawks/deandrehunter.png"
     },
 
     {
@@ -2254,8 +2288,10 @@ const PlayerStatsPage = () => {
       TOV: "163",
       PF: "145",
       PTS: "1332",
-      PlayerAdditional: "ingrabr01"
+      PlayerAdditional: "ingrabr01",
+      imgSrc: "img/neworleanspelicans/brandoningram.png"
     },
+
     {
       Rk: "239",
       Player: "Kyrie Irving",
@@ -2287,7 +2323,8 @@ const PlayerStatsPage = () => {
       TOV: "106",
       PF: "112",
       PTS: "1487",
-      PlayerAdditional: "irvinky01"
+      PlayerAdditional: "irvinky01",
+      imgSrc: "img/dallasmavericks/kyrieirving.png"
     },
 
     {
@@ -2321,7 +2358,8 @@ const PlayerStatsPage = () => {
       TOV: "190",
       PF: "204",
       PTS: "1185",
-      PlayerAdditional: "iveyja01"
+      PlayerAdditional: "iveyja01",
+      imgSrc: "img/detroitpistons/jadenivey.png"
     },
  
     {
@@ -2355,7 +2393,8 @@ const PlayerStatsPage = () => {
       TOV: "160",
       PF: "235",
       PTS: "1486",
-      PlayerAdditional: "jacksja02"
+      PlayerAdditional: "jacksja02",
+      imgSrc: "img/memphisgrizzlies/jarenjacksonjr.png"
     },
 
     {
@@ -2389,7 +2428,8 @@ const PlayerStatsPage = () => {
       TOV: "49",
       PF: "108",
       PTS: "540",
-      PlayerAdditional: "jackstr02"
+      PlayerAdditional: "jackstr02",
+      imgSrc: "img/goldenstatewarriors/traycejacksondavis.png"
     },
     {
       Rk: "250",
@@ -2422,7 +2462,8 @@ const PlayerStatsPage = () => {
       TOV: "245",
       PF: "78",
       PTS: "1822",
-      PlayerAdditional: "jamesle01"
+      PlayerAdditional: "jamesle01",
+      imgSrc: "img/losangeleslakers/lebronjames.png"
     },
   
     {
@@ -2456,7 +2497,8 @@ const PlayerStatsPage = () => {
       TOV: "100",
       PF: "149",
       PTS: "1084",
-      PlayerAdditional: "johnske04"
+      PlayerAdditional: "johnske04",
+      imgSrc: "img/sanantoniospurs/keldonjohnson.png"
     },
   
     {
@@ -2490,7 +2532,8 @@ const PlayerStatsPage = () => {
       TOV: "237",
       PF: "194",
       PTS: "2085",
-      PlayerAdditional: "jokicni01"
+      PlayerAdditional: "jokicni01",
+      imgSrc:"img/denvernuggets/nikolajokic.png"
     },
 
 
@@ -2525,7 +2568,8 @@ const PlayerStatsPage = () => {
       TOV: "65",
       PF: "121",
       PTS: "657",
-      PlayerAdditional: "jonesde02"
+      PlayerAdditional: "jonesde02",
+      imgSrc: "img/dallasmavericks/derrickjonesjr.png"
     },
     {
       Rk: "267",
@@ -2558,7 +2602,8 @@ const PlayerStatsPage = () => {
       TOV: "93",
       PF: "224",
       PTS: "837",
-      PlayerAdditional: "joneshe01"
+      PlayerAdditional: "joneshe01",
+      imgSrc: "img/neworleanspelicans/herbertjones.png"
     },
 
     {
@@ -2592,7 +2637,8 @@ const PlayerStatsPage = () => {
       TOV: "116",
       PF: "92",
       PTS: "771",
-      PlayerAdditional: "jonestr01"
+      PlayerAdditional: "jonestr01",
+      imgSrc: "img/sanantoniospurs/trejones.png"
     },
 
     {
@@ -2626,7 +2672,8 @@ const PlayerStatsPage = () => {
       TOV: "66",
       PF: "132",
       PTS: "518",
-      PlayerAdditional: "kesslwa01"
+      PlayerAdditional: "kesslwa01",
+      imgSrc: "img/utahjazz/walkerkessler.png"
     },
 
     {
@@ -2660,7 +2707,8 @@ const PlayerStatsPage = () => {
       TOV: "98",
       PF: "141",
       PTS: "1070",
-      PlayerAdditional: "kispeco01"
+      PlayerAdditional: "kispeco01",
+      imgSrc: "img/washingtonwizards/coreykispert.png"
     },
 
     {
@@ -2694,7 +2742,9 @@ const PlayerStatsPage = () => {
       TOV: "192",
       PF: "153",
       PTS: "1553",
-      PlayerAdditional: "kuzmaky01"
+      PlayerAdditional: "kuzmaky01",
+      imgSrc: "img/washingtonwizards/kylekuzma.png"
+
     },
 
 
@@ -2729,7 +2779,9 @@ const PlayerStatsPage = () => {
       TOV: "119",
       PF: "97",
       PTS: "1613",
-      PlayerAdditional: "leonaka01"
+      PlayerAdditional: "leonaka01",
+      imgSrc: "img/laclippers/kawhileonard.png"
+
     },
 
     {
@@ -2763,7 +2815,8 @@ const PlayerStatsPage = () => {
       TOV: "193",
       PF: "134",
       PTS: "1775",
-      PlayerAdditional: "lillada01"
+      PlayerAdditional: "lillada01",
+      imgSrc: "img/milwaukeebucks/damianlillard.png"
     },
 
     {
@@ -2797,7 +2850,8 @@ const PlayerStatsPage = () => {
       TOV: "79",
       PF: "191",
       PTS: "990",
-      PlayerAdditional: "lopezbr01"
+      PlayerAdditional: "lopezbr01",
+      imgSrc: "img/milwaukeebucks/brooklopez.png"
     },
 
     {
@@ -2831,7 +2885,8 @@ const PlayerStatsPage = () => {
       TOV: "48",
       PF: "97",
       PTS: "485",
-      PlayerAdditional: "loveke01"
+      PlayerAdditional: "loveke01",
+      imgSrc: "img/miamiheat/kevinlove.png"
     },
     {
       Rk: "308",
@@ -2864,7 +2919,8 @@ const PlayerStatsPage = () => {
       TOV: "85",
       PF: "146",
       PTS: "487",
-      PlayerAdditional: "lowryky01"
+      PlayerAdditional: "lowryky01",
+      imgSrc: "img/philadelphia76ers/kylelowry.png"
     },
 
     {
@@ -2898,7 +2954,8 @@ const PlayerStatsPage = () => {
       TOV: "48",
       PF: "145",
       PTS: "658",
-      PlayerAdditional: "mannte01"
+      PlayerAdditional: "mannte01",
+      imgSrc: "img/laclippers/terancemann.png"
     },
 
     {
@@ -2932,7 +2989,8 @@ const PlayerStatsPage = () => {
       TOV: "77",
       PF: "100",
       PTS: "1278",
-      PlayerAdditional: "markkla01"
+      PlayerAdditional: "markkla01",
+      imgSrc: "img/utahjazz/laurimarkkanen.png"
     },
 
     {
@@ -2966,7 +3024,8 @@ const PlayerStatsPage = () => {
       TOV: "44",
       PF: "48",
       PTS: "211",
-      PlayerAdditional: "martico01"
+      PlayerAdditional: "martico01",
+      imgSrc: "img/charlottehornets/codymartin.png"
     },
 
     {
@@ -3000,7 +3059,8 @@ const PlayerStatsPage = () => {
       TOV: "116",
       PF: "151",
       PTS: "1816",
-      PlayerAdditional: "maxeyty01"
+      PlayerAdditional: "maxeyty01",
+      imgSrc: "img/philadelphia76ers/tyresemaxey.png"
     },
 
     {
@@ -3034,7 +3094,8 @@ const PlayerStatsPage = () => {
       TOV: "110",
       PF: "126",
       PTS: "1322",
-      PlayerAdditional: "mccolcj01"
+      PlayerAdditional: "mccolcj01",
+      imgSrc: "img/neworleanspelicans/cjmccollum.png"
     },
 
     {
@@ -3068,7 +3129,8 @@ const PlayerStatsPage = () => {
       TOV: "39",
       PF: "84",
       PTS: "421",
-      PlayerAdditional: "meltode01"
+      PlayerAdditional: "meltode01",
+      imgSrc: "img/philadelphia76ers/anthonymelton.png"
     },
 
     {
@@ -3102,7 +3164,8 @@ const PlayerStatsPage = () => {
       TOV: "127",
       PF: "141",
       PTS: "828",
-      PlayerAdditional: "middlkh01"
+      PlayerAdditional: "middlkh01",
+      imgSrc: "img/milwaukeebucks/khrismiddleton.png"
     },
     {
       Rk: "341",
@@ -3135,7 +3198,8 @@ const PlayerStatsPage = () => {
       TOV: "132",
       PF: "184",
       PTS: "1279",
-      PlayerAdditional: "millebr02"
+      PlayerAdditional: "millebr02",
+      imgSrc: "img/charlottehornets/brandonmiller.png"
     },
 
     {
@@ -3169,7 +3233,8 @@ const PlayerStatsPage = () => {
       TOV: "150",
       PF: "156",
       PTS: "1110",
-      PlayerAdditional: "monkma01"
+      PlayerAdditional: "monkma01",
+      imgSrc:"img/sacramentokings/malikmonk.png"
     },
 
     {
@@ -3203,7 +3268,8 @@ const PlayerStatsPage = () => {
       TOV: "27",
       PF: "19",
       PTS: "226",
-      PlayerAdditional: "moranja01"
+      PlayerAdditional: "moranja01",
+      imgSrc: "img/memphisgrizzlies/jamorant.png"
     },
 
     {
@@ -3237,8 +3303,10 @@ const PlayerStatsPage = () => {
       TOV: "201",
       PF: "138",
       PTS: "1753",
-      PlayerAdditional: "murrade01"
+      PlayerAdditional: "murrade01",
+      imgSrc: "img/atlantahawks/dejountemurray.png"
     },
+
     {
       Rk: "364",
       Player: "Jamal Murray",
@@ -3270,7 +3338,8 @@ const PlayerStatsPage = () => {
       TOV: "125",
       PF: "104",
       PTS: "1250",
-      PlayerAdditional: "murraja01"
+      PlayerAdditional: "murraja01",
+      imgSrc: "img/denvernuggets/jamalmurray.png"
     },
     {
       Rk: "365",
@@ -3303,7 +3372,8 @@ const PlayerStatsPage = () => {
       TOV: "64",
       PF: "205",
       PTS: "1172",
-      PlayerAdditional: "murrake02"
+      PlayerAdditional: "murrake02",
+      imgSrc: "img/sacramentokings/keeganmurray.png"
     },
 
     {
@@ -3337,7 +3407,8 @@ const PlayerStatsPage = () => {
       TOV: "101",
       PF: "143",
       PTS: "626",
-      PlayerAdditional: "nembhan01"
+      PlayerAdditional: "nembhan01",
+      imgSrc: "img/indianapacers/andrewnembhard.png"
     },
     {
       Rk: "372",
@@ -3370,7 +3441,8 @@ const PlayerStatsPage = () => {
       TOV: "64",
       PF: "241",
       PTS: "877",
-      PlayerAdditional: "nesmiaa01"
+      PlayerAdditional: "nesmiaa01",
+      imgSrc: "img/indianapacers/aaronnesmith.png"
     },
     
     {
@@ -3404,7 +3476,8 @@ const PlayerStatsPage = () => {
       TOV: "152",
       PF: "230",
       PTS: "762",
-      PlayerAdditional: "olynyke01"
+      PlayerAdditional: "olynyke01",
+      imgSrc: "img/torontoraptors/kellyolynyk.png"
     },
 
     {
@@ -3438,7 +3511,8 @@ const PlayerStatsPage = () => {
       TOV: "87",
       PF: "194",
       PTS: "1049",
-      PlayerAdditional: "oubreke01"
+      PlayerAdditional: "oubreke01",
+      imgSrc: "img/philadelphia76ers/kellyoubrejr.png"
     },
  
     {
@@ -3472,7 +3546,8 @@ const PlayerStatsPage = () => {
       TOV: "77",
       PF: "149",
       PTS: "555",
-      PlayerAdditional: "poeltja01"
+      PlayerAdditional: "poeltja01",
+      imgSrc: "img/torontoraptors/jakobpoeltl.png"
     },
 
     {
@@ -3506,7 +3581,8 @@ const PlayerStatsPage = () => {
       TOV: "188",
       PF: "244",
       PTS: "1356",
-      PlayerAdditional: "poolejo01"
+      PlayerAdditional: "poolejo01",
+      imgSrc: "img/washingtonwizards/jordanpoole.png"
     },
 
     {
@@ -3540,7 +3616,8 @@ const PlayerStatsPage = () => {
       TOV: "92",
       PF: "148",
       PTS: "1356",
-      PlayerAdditional: "portemi01"
+      PlayerAdditional: "portemi01",
+      imgSrc: "img/denvernuggets/michaelporterjr.png"
     },
 
     {
@@ -3574,7 +3651,8 @@ const PlayerStatsPage = () => {
       TOV: "91",
       PF: "189",
       PTS: "1130",
-      PlayerAdditional: "portibo01"
+      PlayerAdditional: "portibo01",
+      imgSrc: "img/milwaukeebucks/bobbyportis.png"
     },
     {
       Rk: "409",
@@ -3607,7 +3685,8 @@ const PlayerStatsPage = () => {
       TOV: "89",
       PF: "156",
       PTS: "1145",
-      PlayerAdditional: "porzikr01"
+      PlayerAdditional: "porzikr01",
+      imgSrc: "img/bostonceltics/kristapsporzingis.png"
     },
 
     {
@@ -3641,7 +3720,8 @@ const PlayerStatsPage = () => {
       TOV: "101",
       PF: "119",
       PTS: "1156",
-      PlayerAdditional: "quickim01"
+      PlayerAdditional: "quickim01",
+      imgSrc: "img/torontoraptors/immanuelquickley.png"
     },
 
     {
@@ -3675,7 +3755,8 @@ const PlayerStatsPage = () => {
       TOV: "159",
       PF: "125",
       PTS: "1102",
-      PlayerAdditional: "randlju01"
+      PlayerAdditional: "randlju01",
+      imgSrc: "img/newyorkknicks/juliusrandle.png"
     },
 
     {
@@ -3709,7 +3790,8 @@ const PlayerStatsPage = () => {
       TOV: "174",
       PF: "153",
       PTS: "1300",
-      PlayerAdditional: "reaveau01"
+      PlayerAdditional: "reaveau01",
+      imgSrc: "img/losangeleslakers/austinreaves.png"
     },
 
     {
@@ -3743,7 +3825,8 @@ const PlayerStatsPage = () => {
       TOV: "25",
       PF: "55",
       PTS: "173",
-      PlayerAdditional: "robinmi01"
+      PlayerAdditional: "robinmi01",
+      imgSrc: "img/newyorkknicks/mitchellrobinson.png"
     },
 
     {
@@ -3777,7 +3860,8 @@ const PlayerStatsPage = () => {
       TOV: "156",
       PF: "156",
       PTS: "1369",
-      PlayerAdditional: "russeda01"
+      PlayerAdditional: "russeda01",
+      imgSrc: "img/losangeleslakers/dlorussel.png"
     },
 
     {
@@ -3811,7 +3895,8 @@ const PlayerStatsPage = () => {
       TOV: "272",
       PF: "250",
       PTS: "1593",
-      PlayerAdditional: "sabondo01"
+      PlayerAdditional: "sabondo01",
+      imgSrc: "img/sacramentokings/domantassabonis.png"
     },
 
     {
@@ -3845,7 +3930,8 @@ const PlayerStatsPage = () => {
       TOV: "162",
       PF: "211",
       PTS: "1331",
-      PlayerAdditional: "sengual01"
+      PlayerAdditional: "sengual01",
+      imgSrc: "img/houstonrockets/alperensengun.png"
     },
 
     {
@@ -3879,7 +3965,8 @@ const PlayerStatsPage = () => {
       TOV: "72",
       PF: "88",
       PTS: "510",
-      PlayerAdditional: "sharpsh01"
+      PlayerAdditional: "sharpsh01",
+      imgSrc: "img/portlandtrailblazers/shaedonsharpe.png"
     },
  
     {
@@ -3913,7 +4000,8 @@ const PlayerStatsPage = () => {
       TOV: "141",
       PF: "193",
       PTS: "1737",
-      PlayerAdditional: "siakapa01"
+      PlayerAdditional: "siakapa01",
+      imgSrc: "img/indianapacers/pascalsiakam.png"
     },
 
     {
@@ -3947,7 +4035,8 @@ const PlayerStatsPage = () => {
       TOV: "126",
       PF: "98",
       PTS: "1039",
-      PlayerAdditional: "simonan01"
+      PlayerAdditional: "simonan01",
+      imgSrc: "img/portlandtrailblazers/anferneesimons.png"
     },
 
     {
@@ -3981,7 +4070,8 @@ const PlayerStatsPage = () => {
       TOV: "62",
       PF: "53",
       PTS: "289",
-      PlayerAdditional: "smartma01"
+      PlayerAdditional: "smartma01",
+      imgSrc: "img/memphisgrizzlies/marcussmart.png"
     },
 
     {
@@ -4015,7 +4105,8 @@ const PlayerStatsPage = () => {
       TOV: "89",
       PF: "200",
       PTS: "1044",
-      PlayerAdditional: "smithja05"
+      PlayerAdditional: "smithja05",
+      imgSrc: "img/houstonrockets/jabarismithjr.png"
     },
 
     {
@@ -4049,7 +4140,8 @@ const PlayerStatsPage = () => {
       TOV: "140",
       PF: "168",
       PTS: "861",
-      PlayerAdditional: "sochaje01"
+      PlayerAdditional: "sochaje01",
+      imgSrc: "img/sanantoniospurs/jeremysochan.png"
     },
  
     {
@@ -4083,7 +4175,8 @@ const PlayerStatsPage = () => {
       TOV: "188",
       PF: "145",
       PTS: "1987",
-      PlayerAdditional: "tatumja01"
+      PlayerAdditional: "tatumja01",
+      imgSrc: "img/bostonceltics/jaysontatum.png"
     },
 
     {
@@ -4117,7 +4210,8 @@ const PlayerStatsPage = () => {
       TOV: "124",
       PF: "138",
       PTS: "1482",
-      PlayerAdditional: "thomaca02"
+      PlayerAdditional: "thomaca02",
+      imgSrc: "img/brooklynnets/camthomas.png"
     },
 
     {
@@ -4151,7 +4245,8 @@ const PlayerStatsPage = () => {
       TOV: "84",
       PF: "175",
       PTS: "556",
-      PlayerAdditional: "thompau01"
+      PlayerAdditional: "thompau01",
+      imgSrc: "img/detroitpistons/ausarthompson.png"
     },
     {
       Rk: "498",
@@ -4184,7 +4279,8 @@ const PlayerStatsPage = () => {
       TOV: "117",
       PF: "127",
       PTS: "1375",
-      PlayerAdditional: "thompkl01"
+      PlayerAdditional: "thompkl01",
+      imgSrc: "img/goldenstatewarriors/klaythompson.png"
     },
    
     {
@@ -4218,7 +4314,8 @@ const PlayerStatsPage = () => {
       TOV: "40",
       PF: "93",
       PTS: "354",
-      PlayerAdditional: "thybuma01"
+      PlayerAdditional: "thybuma01",
+      imgSrc: "img/portlandtrailblazers/matissethybulle.png"
     },
 
     {
@@ -4252,7 +4349,8 @@ const PlayerStatsPage = () => {
       TOV: "177",
       PF: "204",
       PTS: "1349",
-      PlayerAdditional: "townska01"
+      PlayerAdditional: "townska01",
+      imgSrc: "img/minnesotatimberwolves/karl-anthonytowns.png"
     },
     {
       Rk: "507",
@@ -4285,7 +4383,8 @@ const PlayerStatsPage = () => {
       TOV: "47",
       PF: "96",
       PTS: "974",
-      PlayerAdditional: "trentga02"
+      PlayerAdditional: "trentga02",
+      imgSrc: "img/torontoraptors/garytrentjr.png"
     },
  
     {
@@ -4319,7 +4418,8 @@ const PlayerStatsPage = () => {
       TOV: "109",
       PF: "232",
       PTS: "1313",
-      PlayerAdditional: "turnemy01"
+      PlayerAdditional: "turnemy01",
+      imgSrc: "img/indianapacers/mylesturner.png"
     },
 
     {
@@ -4353,7 +4453,8 @@ const PlayerStatsPage = () => {
       TOV: "111",
       PF: "218",
       PTS: "1002",
-      PlayerAdditional: "valanjo01"
+      PlayerAdditional: "valanjo01",
+
     },
 
     {
@@ -4526,7 +4627,7 @@ const PlayerStatsPage = () => {
       PF: "39",
       PTS: "117",
       PlayerAdditional: "watanyu01",
-      imgSrc: "",
+      imgSrc: "img/memphisgrizzlies/yuta.png"
     },
 
     {
